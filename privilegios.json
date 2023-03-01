@@ -32,6 +32,7 @@
                 "agregar_formulario": true
              },
              "actuaciones":{
+                
                 "filtros":{
                     "nro_sumario":true,
                     "fecha_creacion":true,
@@ -69,23 +70,25 @@
                 }
                 
              },
-            "sumario_denuncia": true,
-            "sumario_oficio" : true, 
-            "expediente_denuncia": true,
-            "expediente_oficio": true,
-            "ufi_flagrancia": true,
-            "ufi_cavig": true,
-            "ufi_anivi": true,
-            "ufi_delitos_especiales": true,
-            "preliminares":{
-                "incendio_vivienda":true,
-                "establecer_procedencia":true,
-                "fuga_menor":true,
-                "siniestro_vial":true,
-                "caida_casual":true,
-                "incendio_automotor":true,
-                "tentativa_suicidio":true
-            },
+             "creacion_actuaciones":{
+                "sumario_denuncia": true,
+                "sumario_oficio" : true, 
+                "expediente_denuncia": true,
+                "expediente_oficio": true,
+                "ufi_flagrancia": true,
+                "ufi_cavig": true,
+                "ufi_anivi": true,
+                "ufi_delitos_especiales": true,
+                "preliminares":{
+                    "incendio_vivienda":true,
+                    "establecer_procedencia":true,
+                    "fuga_menor":true,
+                    "siniestro_vial":true,
+                    "caida_casual":true,
+                    "incendio_automotor":true,
+                    "tentativa_suicidio":true
+                }
+            },            
             "parametrizacion":{
                 "genero":true,
                 "gestor_diligencias": true,
@@ -204,7 +207,7 @@
                 "ufi_anivi": true,
                 "ufi_delitos_especiales": true,
                 "preliminares":true,
-                "parametrizacion": false,
+                "parametrizacion": true,
                 "bandeja_de_deposito": true,
                 "bandeja_de_solicitudes": true,
                 "direccion_d1":true,
@@ -212,11 +215,12 @@
                 "cerrar_session":true
              },
              "escritorio":{
-                "seleccionar_dependencia": false,
+                "seleccionar_dependencia": true,
                 "buscar_documentos": true,
                 "agregar_formulario": true
              },
              "actuaciones":{
+                
                 "filtros":{
                     "nro_sumario":true,
                     "fecha_creacion":true,
@@ -254,23 +258,25 @@
                 }
                 
              },
-            "sumario_denuncia": true,
-            "sumario_oficio" : true, 
-            "expediente_denuncia": true,
-            "expediente_oficio": true,
-            "ufi_flagrancia": true,
-            "ufi_cavig": true,
-            "ufi_anivi": true,
-            "ufi_delitos_especiales": true,
-            "preliminares":{
-                "incendio_vivienda":true,
-                "establecer_procedencia":true,
-                "fuga_menor":true,
-                "siniestro_vial":true,
-                "caida_casual":true,
-                "incendio_automotor":true,
-                "tentativa_suicidio":true
-            },
+             "creacion_actuaciones":{
+                "sumario_denuncia": true,
+                "sumario_oficio" : true, 
+                "expediente_denuncia": true,
+                "expediente_oficio": true,
+                "ufi_flagrancia": true,
+                "ufi_cavig": true,
+                "ufi_anivi": true,
+                "ufi_delitos_especiales": true,
+                "preliminares":{
+                    "incendio_vivienda":true,
+                    "establecer_procedencia":true,
+                    "fuga_menor":true,
+                    "siniestro_vial":true,
+                    "caida_casual":true,
+                    "incendio_automotor":true,
+                    "tentativa_suicidio":true
+                }
+            },            
             "parametrizacion":{
                 "genero":true,
                 "gestor_diligencias": true,
@@ -370,6 +376,7 @@
             }
 
         }
+        
         
         
     }
