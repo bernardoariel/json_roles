@@ -1,0 +1,377 @@
+{
+    "roles":{
+        "admin":{
+            "menu_top":{
+                "lupa": true,
+                "actualizar_cache":true,
+                "cambiar_contraseña":true,
+                "cerrar_session":true
+             },
+             "menu_lateral":{
+                "escritorio": true,
+                "actuaciones": true,
+                "sumario_denuncia": true,
+                "sumario_oficio" : true, 
+                "expediente_denuncia": true,
+                "expediente_oficio": true,
+                "ufi_flagrancia": true,
+                "ufi_cavig": true,
+                "ufi_anivi": true,
+                "ufi_delitos_especiales": true,
+                "preliminares":true,
+                "parametrizacion": true,
+                "bandeja_de_deposito": true,
+                "bandeja_de_solicitudes": true,
+                "direccion_d1":true,
+                "cambiar_contraseña":true,
+                "cerrar_session":true
+             },
+             "escritorio":{
+                "seleccionar_dependencia": true,
+                "buscar_documentos": true,
+                "agregar_formulario": true
+             },
+             "actuaciones":{
+                "filtros":{
+                    "nro_sumario":true,
+                    "fecha_creacion":true,
+                    "dni_denunciante":true,
+                    "dni_damnificado":true,
+                    "dni_acusado":true,
+                    "actuaciones":true,
+                    "apodo":true,
+                    "estado": true,
+                    "propietario": true,
+                    "causa_cararula":true,
+                    "juzgado": true,
+                    "dependencia":true,
+                    "dependencias": true,
+                    "oficial": true
+                },
+                "tabla":{
+                    "denunciante": true,
+                    "fecha_de_creacion": true,
+                    "causa_caratula": true,
+                    "actuaciones":true,
+                    "juzgado":true,
+                    "nro_de_actuacion":true,
+                    "estado":true,
+                    "btn_vizualizar":true,
+                    "btn_eliminar": true,
+                    "btn_asignar_secretario": true,
+                    "paginacion": true
+                },
+                "descargas":{
+                    "planeamiento":true,
+                    "inspeccion_y_control": true,
+                    "telecomunicaciones_d8": true,
+                    "asuntos_judiciales_d5": true
+                }
+                
+             },
+            "sumario_denuncia": true,
+            "sumario_oficio" : true, 
+            "expediente_denuncia": true,
+            "expediente_oficio": true,
+            "ufi_flagrancia": true,
+            "ufi_cavig": true,
+            "ufi_anivi": true,
+            "ufi_delitos_especiales": true,
+            "preliminares":{
+                "incendio_vivienda":true,
+                "establecer_procedencia":true,
+                "fuga_menor":true,
+                "siniestro_vial":true,
+                "caida_casual":true,
+                "incendio_automotor":true,
+                "tentativa_suicidio":true
+            },
+            "parametrizacion":{
+                "genero":true,
+                "gestor_diligencias": true,
+                "articulos_actuaciones": true,
+                "pais": true,
+                "deposito_dependencia": true,
+                "dependencia":true,
+                "caratula":true,
+                "personal_fiscal":true,
+                "estado_civil":true,
+                "efecto_denuncia": true,
+                "provincia":true,
+                "usuario": true,
+                "juzgado": true,
+                "persona_fisica":true,
+                "modus_operandi":true,
+                "marcas":true,
+                "modelos":true,
+                "categorias":true,
+                "subcategorias":true,
+                "tipo": true,
+                "gestor_archivos":true,
+                "categorias_tipo_archivo_pdf":true
+            },
+            "bandeja_deposito":{
+                "tabla":{
+                    "check":{
+                        "values":{
+                            "true":{"btn_eliminar": true},
+                            "false":{}
+                        }
+                    },
+                    "creacion":true,
+                    "categoria":true,
+                    "subcategoria":true,
+                    "marca":true,
+                    "modelo":true,
+                    "tipo":true,
+                    "btn_visualizar": true
+                },
+                "filtros": {
+                    "nro_motor":true,
+                    "nro_chasis":true,
+                    "imei": true,
+                    "dominio": true,
+                    "año": true,
+                    "categoria":true,
+                    "subcategoria":true,
+                    "fecha_creacion":true,
+                    "marca": true,
+                    "modelo":true,
+                    "visibles": true,
+                    "dependencia": true
+                },
+                "btn_agregar":true,
+                "btn_actualizar":true
+            },
+            "bandeja_solicitudes":{
+                "tabla":{
+                    "check":{
+                        "values":{
+                            "true":{
+                                "btn_eliminar": true,
+                                "btn_editar": true
+                            },
+                            "false":{}
+                        }
+                    },
+                    "creacion":true,
+                    "nombre":true,
+                    "apellido":true,
+                    "dni":true,
+                    "celular":true,
+                    "numero_denuncia":true,
+                    "descripcion": true,
+                    "btn_vizualizar": true,
+                    "paginacion":true
+                },
+                "filtros": {
+                    "dni":true,
+                    "nombre":true,
+                    "apellido":true,
+                    "nro_motor":true,
+                    "nro_chasis":true,
+                    "imei": true,
+                    "dominio": true,
+                    "año": true,
+                    "categoria":true,
+                    "subcategoria":true,
+                    "fecha_creacion":true,
+                    "dependencia": true
+                },
+                "btn_actualizar":true
+            },
+            "direccion_d1":{
+                "values": true
+            }
+
+        },
+        "oficial_sumariante":{
+            "menu_top":{
+                "lupa": true,
+                "actualizar_cache":true,
+                "cambiar_contraseña":true,
+                "cerrar_session":true
+             },
+             "menu_lateral":{
+                "escritorio": true,
+                "actuaciones": true,
+                "sumario_denuncia": true,
+                "sumario_oficio" : true, 
+                "expediente_denuncia": true,
+                "expediente_oficio": true,
+                "ufi_flagrancia": true,
+                "ufi_cavig": true,
+                "ufi_anivi": true,
+                "ufi_delitos_especiales": true,
+                "preliminares":true,
+                "parametrizacion": false,
+                "bandeja_de_deposito": true,
+                "bandeja_de_solicitudes": true,
+                "direccion_d1":true,
+                "cambiar_contraseña":true,
+                "cerrar_session":true
+             },
+             "escritorio":{
+                "seleccionar_dependencia": false,
+                "buscar_documentos": true,
+                "agregar_formulario": true
+             },
+             "actuaciones":{
+                "filtros":{
+                    "nro_sumario":true,
+                    "fecha_creacion":true,
+                    "dni_denunciante":true,
+                    "dni_damnificado":true,
+                    "dni_acusado":true,
+                    "actuaciones":true,
+                    "apodo":true,
+                    "estado": true,
+                    "propietario": true,
+                    "causa_cararula":true,
+                    "juzgado": true,
+                    "dependencia":true,
+                    "dependencias": true,
+                    "oficial": true
+                },
+                "tabla":{
+                    "denunciante": true,
+                    "fecha_de_creacion": true,
+                    "causa_caratula": true,
+                    "actuaciones":true,
+                    "juzgado":true,
+                    "nro_de_actuacion":true,
+                    "estado":true,
+                    "btn_vizualizar":true,
+                    "btn_eliminar": true,
+                    "btn_asignar_secretario": true,
+                    "paginacion": true
+                },
+                "descargas":{
+                    "planeamiento":true,
+                    "inspeccion_y_control": true,
+                    "telecomunicaciones_d8": true,
+                    "asuntos_judiciales_d5": true
+                }
+                
+             },
+            "sumario_denuncia": true,
+            "sumario_oficio" : true, 
+            "expediente_denuncia": true,
+            "expediente_oficio": true,
+            "ufi_flagrancia": true,
+            "ufi_cavig": true,
+            "ufi_anivi": true,
+            "ufi_delitos_especiales": true,
+            "preliminares":{
+                "incendio_vivienda":true,
+                "establecer_procedencia":true,
+                "fuga_menor":true,
+                "siniestro_vial":true,
+                "caida_casual":true,
+                "incendio_automotor":true,
+                "tentativa_suicidio":true
+            },
+            "parametrizacion":{
+                "genero":true,
+                "gestor_diligencias": true,
+                "articulos_actuaciones": true,
+                "pais": true,
+                "deposito_dependencia": true,
+                "dependencia":true,
+                "caratula":true,
+                "personal_fiscal":true,
+                "estado_civil":true,
+                "efecto_denuncia": true,
+                "provincia":true,
+                "usuario": true,
+                "juzgado": true,
+                "persona_fisica":true,
+                "modus_operandi":true,
+                "marcas":true,
+                "modelos":true,
+                "categorias":true,
+                "subcategorias":true,
+                "tipo": true,
+                "gestor_archivos":true,
+                "categorias_tipo_archivo_pdf":true
+            },
+            "bandeja_deposito":{
+                "tabla":{
+                    "check":{
+                        "values":{
+                            "true":{"btn_eliminar": true},
+                            "false":{}
+                        }
+                    },
+                    "creacion":true,
+                    "categoria":true,
+                    "subcategoria":true,
+                    "marca":true,
+                    "modelo":true,
+                    "tipo":true,
+                    "btn_visualizar": true
+                },
+                "filtros": {
+                    "nro_motor":true,
+                    "nro_chasis":true,
+                    "imei": true,
+                    "dominio": true,
+                    "año": true,
+                    "categoria":true,
+                    "subcategoria":true,
+                    "fecha_creacion":true,
+                    "marca": true,
+                    "modelo":true,
+                    "visibles": true,
+                    "dependencia": true
+                },
+                "btn_agregar":true,
+                "btn_actualizar":true
+            },
+            "bandeja_solicitudes":{
+                "tabla":{
+                    "check":{
+                        "values":{
+                            "true":{
+                                "btn_eliminar": true,
+                                "btn_editar": true
+                            },
+                            "false":{}
+                        }
+                    },
+                    "creacion":true,
+                    "nombre":true,
+                    "apellido":true,
+                    "dni":true,
+                    "celular":true,
+                    "numero_denuncia":true,
+                    "descripcion": true,
+                    "btn_vizualizar": true,
+                    "paginacion":true
+                },
+                "filtros": {
+                    "dni":true,
+                    "nombre":true,
+                    "apellido":true,
+                    "nro_motor":true,
+                    "nro_chasis":true,
+                    "imei": true,
+                    "dominio": true,
+                    "año": true,
+                    "categoria":true,
+                    "subcategoria":true,
+                    "fecha_creacion":true,
+                    "dependencia": true
+                },
+                "btn_actualizar":true
+            },
+            "direccion_d1":{
+                "values": true
+            }
+
+        }
+        
+        
+    }
+
+}
